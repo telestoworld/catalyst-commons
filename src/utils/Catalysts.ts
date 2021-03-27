@@ -1,5 +1,5 @@
 import { CatalystData, DAOContract } from '../contracts/CatalystContract'
-import { EthAddress } from 'dcl-crypto'
+import { EthAddress } from 'tcl-crypto'
 import { EthNetwork } from '../contracts/utils'
 
 export function getMainnetCatalysts(): Promise<ServerMetadata[]> {

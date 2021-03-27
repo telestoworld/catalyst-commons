@@ -11,7 +11,7 @@ npm run build
 npm run test
 ```
 
-### [Releases](https://registry.npmjs.org/dcl-catalyst-commons)
+### [Releases](https://registry.npmjs.org/tcl-catalyst-commons)
 
 #### Stable Releases
 To publish a new release, a tag following [SemVer](https://semver.org/) must be done in `master` branch following the format: `MAJOR.MINOR.PATCH` and that will trigger a Github Workflow that publishes the new version of the library, tagging it as `latest`.
