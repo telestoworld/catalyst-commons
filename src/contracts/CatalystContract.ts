@@ -1,4 +1,4 @@
-import { EthAddress } from 'dcl-crypto'
+import { EthAddress } from 'tw-crypto'
 import { Catalyst } from './Catalyst'
 import { EthNetwork, handlerForNetwork } from './utils'
 
