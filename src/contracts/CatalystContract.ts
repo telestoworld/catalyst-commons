@@ -1,9 +1,9 @@
-import { EthAddress } from 'tcl-crypto'
+import { EthAddress } from 'dcl-crypto'
 import { Catalyst } from './Catalyst'
 import { EthNetwork, handlerForNetwork } from './utils'
 
 export class DAOContract {
-  private constructor(private readonly contract: Catalyst) { }
+  private constructor(private readonly contract: Catalyst) {}
 
   async getCount(): Promise<number> {
     return parseInt(await this.contract.methods.catalystCount().call())

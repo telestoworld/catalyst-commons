@@ -1,4 +1,4 @@
-import { AuthChain, EthAddress } from 'tcl-crypto'
+import { AuthChain, EthAddress } from 'dcl-crypto'
 
 export type ContentFileHash = string
 export type Timestamp = number

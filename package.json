@@ -1,5 +1,5 @@
 {
-  "name": "tcl-catalyst-commons",
+  "name": "dcl-catalyst-commons",
   "version": "0.0.0-development",
   "description": "Common tools and types to share between catalyst servers and clients",
   "main": "dist/index.js",
@@ -30,17 +30,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/telestoworld/catalyst-commons.git"
+    "url": "git+https://github.com/decentraland/catalyst-commons.git"
   },
   "keywords": [
-    "telestoworld"
+    "decentraland"
   ],
-  "author": "telestoworld",
+  "author": "Decentraland",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/telestoworld/catalyst-commons/issues"
+    "url": "https://github.com/decentraland/catalyst-commons/issues"
   },
-  "homepage": "https://github.com/telestoworld/catalyst-commons#readme",
+  "homepage": "https://github.com/decentraland/catalyst-commons#readme",
   "dependencies": {
     "@types/isomorphic-fetch": "0.0.35",
     "@types/ms": "^0.7.31",
@@ -50,7 +50,7 @@
     "blob-to-buffer": "^1.2.9",
     "cids": "^0.8.0",
     "cross-fetch": "^3.0.5",
-    "tcl-crypto": "https://github.com/telestoworld/telestoworld-crypto.git",
+    "dcl-crypto": "^2.1.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.2.0",
